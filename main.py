@@ -19,8 +19,8 @@ def main():
 
         if scelta == "1":
             nuovo_nome = input("Inserisci il nuovo nome del centro fieristico: ")
-            # TODO: Aggiorna il nome del centro fieristico
-
+            nome=nuovo_nome
+            print('Il nuovo nome è stato aggiornato!')
         elif scelta == "2":
             file_path = "dati_lingotto.csv"
             try:
